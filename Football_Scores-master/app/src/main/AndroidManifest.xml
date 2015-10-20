@@ -21,11 +21,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <provider
-            android:name=".ScoresProvider"
-            android:authorities="barqsoft.footballscores" />
-
         <activity
             android:name=".AboutActivity"
             android:label="About"
@@ -34,7 +29,18 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="barqsoft.footballscores.MainActivity" />
         </activity>
+
+        <provider
+            android:name=".ScoresProvider"
+            android:authorities="barqsoft.footballscores" />
+        <!-- Widget -->
+        <receiver
+            android:name=".widget.TodayWidgetProvider"
+            android:label="@string/title_widget_detail">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+        </receiver>
         <service android:name=".service.myFetchService" />
     </application>
-
 </manifest>
