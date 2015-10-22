@@ -181,11 +181,15 @@ public class myFetchService extends IntentService {
                 // If it doesn't, that can cause an empty DB, bypassing the dummy data routine.
                 if (League.equals(PREMIER_LEAGUE) ||
                         League.equals(SERIE_A) ||
+                        League.equals(PRIMERA_LIGA) ||
                         League.equals(BUNDESLIGA1) ||
                         League.equals(BUNDESLIGA2) ||
+                        League.equals(Bundesliga3) ||
                         League.equals(PRIMERA_DIVISION) ||
+                        League.equals(SEGUNDA_DIVISION) ||
                         League.equals(EREDIVISIE) ||
-                        League.equals(LIGUE1)) {
+                        League.equals(LIGUE1) ||
+                        League.equals(LIGUE2)) {
                     match_id = match_data.getJSONObject(LINKS).getJSONObject(SELF).
                             getString("href");
                     match_id = match_id.replace(MATCH_LINK, "");
