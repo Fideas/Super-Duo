@@ -119,6 +119,10 @@ public class TodayWidgetService extends RemoteViewsService {
             remoteViews.setImageViewResource(R.id.widget_home_crest, homeTeamCrest);
             remoteViews.setImageViewResource(R.id.widget_away_crest, awayTeamCrest);
 
+            //Fill in intent
+            final Intent fillInIntent = new Intent();
+            remoteViews.setOnClickFillInIntent(R.id.widget_list_item, fillInIntent);
+
             return remoteViews;
         }
 
