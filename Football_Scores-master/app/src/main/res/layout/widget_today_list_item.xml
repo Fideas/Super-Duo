@@ -14,11 +14,13 @@
         android:orientation="vertical">
 
         <ImageView
+            android:id="@+id/widget_home_crest"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:src="@drawable/liverpool" />
 
         <TextView
+            android:id="@+id/widget_home_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -35,12 +37,14 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/widget_score"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/Score"
             tools:text="1 - 7" />
 
         <TextView
+            android:id="@+id/widget_match_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="19:30" />
@@ -55,11 +59,13 @@
         android:orientation="vertical">
 
         <ImageView
+            android:id="@+id/widget_away_crest"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:src="@drawable/manchester_united" />
 
         <TextView
+            android:id="@+id/widget_away_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
