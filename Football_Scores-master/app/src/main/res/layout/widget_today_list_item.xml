@@ -4,6 +4,7 @@
     android:id="@+id/widget_list_item"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@drawable/list_item"
     android:orientation="horizontal">
 
     <LinearLayout
@@ -25,6 +26,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textSize="@dimen/TeamNames"
+            android:textColor="@color/primary_text_default_material_light"
             tools:text="Liverpool FC" />
 
     </LinearLayout>
@@ -39,6 +41,7 @@
         <TextView
             android:id="@+id/widget_score"
             android:layout_width="wrap_content"
+            android:textColor="@color/primary_text_default_material_light"
             android:layout_height="wrap_content"
             android:textSize="@dimen/Score"
             tools:text="1 - 7" />
@@ -47,6 +50,7 @@
             android:id="@+id/widget_match_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/secondary_text_default_material_light"
             tools:text="19:30" />
 
     </LinearLayout>
@@ -69,6 +73,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:textColor="@color/primary_text_default_material_light"
             android:textSize="@dimen/TeamNames"
             tools:text="Manchester United" />
     </LinearLayout>

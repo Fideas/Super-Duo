@@ -13,7 +13,7 @@
         android:layout_height="match_parent"
         tools:listItem="@layout/widget_today_list_item" />
 
-    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    <TextView
         android:id="@+id/empty_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
