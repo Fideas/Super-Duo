@@ -30,6 +30,11 @@ import it.jaschke.alexandria.ui.camera.CameraSourcePreview;
 import it.jaschke.alexandria.ui.camera.GraphicOverlay;
 
 /**
+ * All code was copied from the Android Vision API samples. For more samples please visit:
+ * https://github.com/googlesamples/android-vision
+ */
+
+/**
  * Activity for the multi-tracker app.  This app detects barcodes and displays the value with the
  * rear facing camera. During detection overlay graphics are drawn to indicate the position,
  * size, and ID of each barcode.

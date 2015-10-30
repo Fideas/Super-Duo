@@ -9,6 +9,11 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
+ * All code was copied from the Android Vision API samples. For more samples please visit:
+ * https://github.com/googlesamples/android-vision
+ */
+
+/**
  * A view which renders a series of custom graphics to be overlayed on top of an associated preview
  * (i.e., the camera preview).  The creator can add graphics objects, update the objects, and remove
  * them, triggering the appropriate drawing and invalidation within the view.<p>

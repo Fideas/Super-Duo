@@ -35,6 +35,11 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * All code was copied from the Android Vision API samples. For more samples please visit:
+ * https://github.com/googlesamples/android-vision
+ */
+
+/**
  * Manages the camera in conjunction with an underlying
  * {@link com.google.android.gms.vision.Detector}.  This receives preview frames from the camera at
  * a specified rate, sending those frames to the detector as fast as it is able to process those
